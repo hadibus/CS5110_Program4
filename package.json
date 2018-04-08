@@ -1,0 +1,22 @@
+{
+  "name": "cs5110_project4",
+  "version": "1.0.0",
+  "description": "Project 4 of CS 5110 Multi-Agent Systems at Utah State University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadibus/CS5110_Program4.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "Christopher Jenkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadibus/CS5110_Program4/issues"
+  },
+  "homepage": "https://github.com/hadibus/CS5110_Program4#readme"
+}
