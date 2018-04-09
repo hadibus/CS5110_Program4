@@ -1,3 +1,4 @@
+"use strict";
 const banner = require("../assets/banner");
 const chalk = require("chalk");
 module.exports = [{

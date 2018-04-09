@@ -1,4 +1,4 @@
-const _ = require('lodash');
+"use strict";
 const commandLineUsage = require('command-line-usage');
 const use = require('./requires/usage');
 const usage = commandLineUsage(require('./requires/usage.js'));
