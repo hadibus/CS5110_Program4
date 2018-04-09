@@ -1,5 +1,4 @@
 const banner = require("../assets/banner");
-console.log(banner);
 const chalk = require("chalk");
 module.exports = [{
         content: chalk.blueBright(banner),
@@ -12,7 +11,7 @@ module.exports = [{
     {
         header: "Usage",
         content: [
-            '$ node . {bold --bids} {underline comma-separated-values} {bold --slot-clicks} {underline comma-separated-values}',
+            '$ node . {bold --bids} {underline comma-separated-values} {bold --ad-clicks} {underline comma-separated-values}',
             '$ node . {bold --help}']
     }
 ];
