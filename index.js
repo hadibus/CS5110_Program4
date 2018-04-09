@@ -1,8 +1,10 @@
 const _ = require('lodash');
 const commandLineUsage = require('command-line-usage');
-const usage = commandLineUsage(require('./usage.json'));
+const use = require('./requires/usage');
+console.log(use);
+const usage = commandLineUsage(require('./requires/usage.js'));
 
-
+console.log(usage);
 
 const commandLineArgs = require("command-line-args");
 
