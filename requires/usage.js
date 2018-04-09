@@ -2,24 +2,17 @@ const banner = require("../assets/banner");
 console.log(banner);
 const chalk = require("chalk");
 module.exports = [{
-        content: chalk.yellow(banner),
+        content: chalk.blueBright(banner),
         raw: true
     },
     {
-        header: "A typical app",
-        content: "Generates something {italic very} important."
+        header: "CS 5110 Program 4 - VCG Auction",
+        content: "Simulates a multi-unit auction. Agents bid for ad space on a website. Given the bids and the clicks per unit time on each of the ad locations, this program calculates how much each bidder should pay based on the Vickery Clark Groves criteria. Written by Christopher Jenkins at Utah State University."
     },
     {
-        header: "Options",
-        optionList: [{
-                name: "input",
-                typeLabel: "{underline file}",
-                description: "The input to process."
-            },
-            {
-                name: "help",
-                description: "Print this usage guide."
-            }
-        ]
+        header: "Usage",
+        content: [
+            '$ node . {bold --bids} {underline comma-separated-values} {bold --slot-clicks} {underline comma-separated-values}',
+            '$ node . {bold --help}']
     }
 ];
