@@ -12,7 +12,6 @@ module.exports = [{
     {
         header: "Usage",
         content: [
-            '$ node . {bold --bids} {underline comma-separated-values} {bold --ad-clicks} {underline comma-separated-values}',
-            '$ node . {bold --help}']
+            '$ node . {bold --bids} {underline comma-separated-values} {bold --ad-clicks} {underline comma-separated-values}']
     }
 ];

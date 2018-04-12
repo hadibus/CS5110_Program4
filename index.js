@@ -19,3 +19,18 @@ if (!options.bids || !options['ad-clicks'])
 }
 
 console.log("do work...");
+
+const bids = options.bids.split(',');
+for (var i = 0; i < bids.length; i++)
+{
+  bids[i] = Number(bids[i]);
+}
+const ad_clicks = options['ad-clicks'].split(',');
+for (var i = 0; i < ad_clicks.length; i++)
+{
+  ad_clicks[i] = Number(ad_clicks[i]);
+}
+
+console.log('bids', bids);
+console.log('ad_clicks', ad_clicks);
+
